@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a123cf-6b39-4e3a-a114-7cf37c669954" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeBreeze.iml" afterPath="$PROJECT_DIR$/CodeBreeze.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CodeHouse/Page.java" afterPath="$PROJECT_DIR$/src/main/java/CodeHouse/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT-javadoc.jar.asc" afterPath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT-javadoc.jar.asc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT-sources.jar.asc" afterPath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT-sources.jar.asc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.jar.asc" afterPath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.jar.asc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.pom.asc" afterPath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.pom.asc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/Page.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/Page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/class-use/Page.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/class-use/Page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT-javadoc.jar.asc" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT-javadoc.jar.asc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT-sources.jar.asc" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT-sources.jar.asc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.jar.asc" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.jar.asc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.pom.asc" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.pom.asc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/maven-metadata-nexus.xml" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/maven-metadata-nexus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/maven-metadata-nexus.xml" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/maven-metadata-nexus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.html" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2070">
-              <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+              <caret line="138" column="17" lean-forward="false" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -71,8 +98,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -363,7 +390,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1680" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -598,15 +624,15 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
-          <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+          <caret line="138" column="17" lean-forward="false" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
