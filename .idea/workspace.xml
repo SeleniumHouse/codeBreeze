@@ -2,72 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a123cf-6b39-4e3a-a114-7cf37c669954" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT-javadoc.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT-sources.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.pom.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/Page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/class-use/Page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/package-list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT-javadoc.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT-sources.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.pom.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/1.0-SNAPSHOT/maven-metadata-nexus.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/CodeHouse/CodeBreeze/maven-metadata-nexus.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CodeHouse.Test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/Command line test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/CodeHouse.Test/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -84,8 +18,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="138" column="17" lean-forward="false" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+            <state relative-caret-position="15">
+              <caret line="1" column="101" lean-forward="true" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -297,6 +231,32 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="CodeHouse" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CodeBreeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeBreeze" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeBreeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeBreeze" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeBreeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeBreeze" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeHouse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeBreeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeBreeze" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -347,18 +307,39 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs />
+      <module name="CodeBreeze" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+      <module name="CodeBreeze" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -370,7 +351,7 @@
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -382,19 +363,19 @@
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+      <module name="CodeBreeze" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -402,10 +383,25 @@
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <option name="PROPERTIES_FILE" value="" />
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" value="" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -426,6 +422,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1680" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -441,7 +438,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23504274" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23504274" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -667,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="138" column="17" lean-forward="false" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+        <state relative-caret-position="15">
+          <caret line="1" column="101" lean-forward="true" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
           <folding />
         </state>
       </provider>
