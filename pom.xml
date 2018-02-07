@@ -4,7 +4,7 @@
 
   <groupId>com.github.seleniumhouse</groupId>
   <artifactId>CodeBreeze</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <packaging>jar</packaging>
 
   <name>com.github.codeBreeze</name>
