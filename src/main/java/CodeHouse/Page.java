@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 
 public class Page {
 
-    protected static WebDriver driver;
+    public static WebDriver driver;
     static Logger logger;
 
 
@@ -47,7 +47,7 @@ public class Page {
      *                Recommended to be replaced with System.out.print();
      *                Adds to logger. Check the overloaded version for other loggers like log4j.
      */
-    protected void info(String message){
+    public void info(String message){
         logger.info(message);
     }
 
@@ -55,7 +55,7 @@ public class Page {
      *
      * @param message is the logging message that needes to be added.
      */
-    protected void warn(String message){
+    public void warn(String message){
         logger.warning(message);
     }
 
@@ -64,7 +64,7 @@ public class Page {
      *
      * @return the current initialised driver.
      */
-    protected WebDriver getDriver(){
+    public WebDriver getDriver(){
         return driver;
     }
 
@@ -72,7 +72,7 @@ public class Page {
      *
      * @return the object of Actions Class from Selenium.
      */
-    protected Actions getActionsHandle(){
+    public Actions getActionsHandle(){
         Actions actions = new Actions(driver);
         return actions;
     }
@@ -82,7 +82,7 @@ public class Page {
      * @param timeInSeconds is the time the WEbDriver waits
      * @return the object of WebDriverWait
      */
-    protected WebDriverWait getWebDriverWait(int timeInSeconds){
+    public WebDriverWait getWebDriverWait(int timeInSeconds){
         WebDriverWait wait = new WebDriverWait(driver, timeInSeconds);
         return wait;
     }
@@ -94,7 +94,7 @@ public class Page {
      *
      * @return the object of Class Select.
      */
-    protected Select getSelectObject(WebElement element){
+    public Select getSelectObject(WebElement element){
         Select select = new Select(element);
         return select;
     }
@@ -104,7 +104,7 @@ public class Page {
      * @param selectElement  is the dropdown element to be used.
      * @param dropdownValue is the value to select the dropdown option by.
      */
-    protected void selectByValue(WebElement selectElement, String dropdownValue){
+    public void selectByValue(WebElement selectElement, String dropdownValue){
         try {
             getSelectObject(selectElement).selectByValue(dropdownValue);
             info("Selected the element with value attribute : "+dropdownValue);
@@ -122,7 +122,7 @@ public class Page {
      * @param selectElement  is the dropdown element to be used.
      *                       Deselects all the dropdown elements.
      */
-    protected void deselectAll(WebElement selectElement){
+    public void deselectAll(WebElement selectElement){
         try {
             getSelectObject(selectElement).deselectAll();
             info("Deselected the element");
@@ -141,7 +141,7 @@ public class Page {
      *                       Deselects the dropdown elements at specified index.
      * @param dropDownIndex is the index for the dropdown list
      */
-    protected void deselectByIndex(WebElement selectElement, int dropDownIndex){
+    public void deselectByIndex(WebElement selectElement, int dropDownIndex){
         try {
             getSelectObject(selectElement).deselectByIndex(dropDownIndex);
             info("Deselected the element at index : "+ dropDownIndex);
@@ -161,7 +161,7 @@ public class Page {
      *                       Deselects the dropdown elements with provided value.
      * @param dropdownListValue is the value in the dropdown list.
      */
-    protected void deselectByValue(WebElement selectElement, String dropdownListValue){
+    public void deselectByValue(WebElement selectElement, String dropdownListValue){
         try {
             getSelectObject(selectElement).deselectByValue(dropdownListValue);
             info("Deselected the element with value : "+ dropdownListValue);
@@ -180,7 +180,7 @@ public class Page {
      *
      * @param visibleText is the text that needs to be selected.
      */
-    protected void deselectByVisibleText(WebElement selectElement, String visibleText){
+    public void deselectByVisibleText(WebElement selectElement, String visibleText){
         try {
             getSelectObject(selectElement).deselectByVisibleText(visibleText);
             info("Deselected the element with visibleText : "+ visibleText);
@@ -199,7 +199,7 @@ public class Page {
      * @param printList is a flag to print the list extracted.
      * @return the List of Extracted DropDown Options.
      */
-    protected List<WebElement> getAllSelectedOptions(WebElement selectElement, boolean printList){
+    public List<WebElement> getAllSelectedOptions(WebElement selectElement, boolean printList){
 
         List<WebElement> extractedList =getSelectObject(selectElement).getAllSelectedOptions();
         if(printList==true){
@@ -216,7 +216,7 @@ public class Page {
      *                This is the native implementation of WebDriver with Exception handling mechanism
      *                and logging information.
      */
-    protected void simpleClick(WebElement element){
+    public void simpleClick(WebElement element){
         try {
             element.click();
             info("Clicked on element");
@@ -234,7 +234,7 @@ public class Page {
      * @param elementToBeClicked the element to clicked with JavaScript Executor.
      *
      */
-    protected void clickWithJS(WebElement elementToBeClicked){
+    public void clickWithJS(WebElement elementToBeClicked){
         waitForJQueryToComplete();
         waitForPageLoadToComplete();
         try {
@@ -256,7 +256,7 @@ public class Page {
      *
      * @param elementToRightClickUpon is the element on which the right click needs to be performed.
      */
-    protected void rightClickOnElement(final WebElement elementToRightClickUpon){
+    public void rightClickOnElement(final WebElement elementToRightClickUpon){
         try {
             getActionsHandle().contextClick(elementToRightClickUpon).build().perform();
             info("Right Clicked on WebElement");
@@ -274,7 +274,7 @@ public class Page {
      * @param element element that needs to be right clicked upon.
      * @param option is the option to be selected from the right click options (DOM options only).
      */
-    protected void rightClickAndChooseOptionByPartialLinkText(final WebElement element, String option){
+    public void rightClickAndChooseOptionByPartialLinkText(final WebElement element, String option){
         try {
             getActionsHandle().contextClick(element).build().perform();
             WebElement ele = element.findElement(By.partialLinkText(option));
@@ -293,7 +293,7 @@ public class Page {
      *
      * @param element Element to be Double Clicked.
      */
-    protected void doubleClickElement(final WebElement element){
+    public void doubleClickElement(final WebElement element){
         try {
             explicitWaitForElementToBeVisible(element,20);
             getActionsHandle().moveToElement(element).doubleClick(element).build().perform();
@@ -317,7 +317,7 @@ public class Page {
      * @param inputElement in which value needs to be set.
      * @param inputValue is the value.
      */
-    protected void setValueInInputField(final WebElement inputElement, String inputValue){
+    public void setValueInInputField(final WebElement inputElement, String inputValue){
         try {
             explicitWaitForElementToBeVisible(inputElement,20);
             clickAndClearField(inputElement);
@@ -338,7 +338,7 @@ public class Page {
      * @param inputElement is the element in which value needs to be set.
      * @param inputValue is the value to be set.
      */
-    protected void setValueInInputFieldJS( WebElement inputElement, String inputValue){
+    public void setValueInInputFieldJS( WebElement inputElement, String inputValue){
         cleanAndRebuildElement(inputElement,150,25);
         getJsDriver().executeScript("arguments[0].value = '';", inputElement);
         inputElement.sendKeys(inputValue);
@@ -351,7 +351,7 @@ public class Page {
      * @param element is the element where the driver will scroll into view.
      *                this method will scroll the page until the element is in view.
      */
-    protected void scrollToElement(final WebElement element){
+    public void scrollToElement(final WebElement element){
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
         info("Scrolling to element in view");
     }
@@ -360,7 +360,7 @@ public class Page {
      *
      * @param inputElement is the elememt  that needs to be cleared. This would be an input field.
      */
-    protected void clearInputElement(WebElement inputElement){
+    public void clearInputElement(WebElement inputElement){
         try {
             inputElement.clear();
             info("Cleared the inputElement "+inputElement.toString());
@@ -377,7 +377,7 @@ public class Page {
      *
      * @param elementToBeClickedAndCleared is the element that needs to be clicked and cleared.
      */
-    protected void clickAndClearField(WebElement elementToBeClickedAndCleared){
+    public void clickAndClearField(WebElement elementToBeClickedAndCleared){
         simpleClick(elementToBeClickedAndCleared);
         clearInputElement(elementToBeClickedAndCleared);
     }
@@ -386,7 +386,7 @@ public class Page {
      *CHECK THIS duplicated
      * @param elementToBeDoubleClicked the element that needs to be double clicked.
      */
-    protected void doubleClickWebElement(WebElement elementToBeDoubleClicked){
+    public void doubleClickWebElement(WebElement elementToBeDoubleClicked){
         Actions actions= getActionsHandle();
         actions.moveToElement(elementToBeDoubleClicked).doubleClick().build().perform();
         info("Double clicked element "+elementToBeDoubleClicked);
@@ -399,7 +399,7 @@ public class Page {
      * @param pollMilliseconds the time in milliseconds to poll before searching.
      * @return the refreshed webElement.
      */
-    protected WebElement cleanAndRebuildElement(final WebElement element, int pollMilliseconds){
+    public WebElement cleanAndRebuildElement(final WebElement element, int pollMilliseconds){
         WebElement e2 = null;
         int counter = 0 ;
         do{
@@ -429,7 +429,7 @@ public class Page {
      * @param retryCount is the time it will retry to rebuild the element.
      * @return the rebuilt element
      */
-    protected WebElement cleanAndRebuildElement(final WebElement element, int pollMilliseconds, int retryCount){
+    public WebElement cleanAndRebuildElement(final WebElement element, int pollMilliseconds, int retryCount){
         WebElement e2 = null;
         int counter = 0 ;
         do{
@@ -455,7 +455,7 @@ public class Page {
      * @param element the element on which explicit wait needs to be performed.
      * @param timeInSeconds the time in seconds to be waited upon.
      */
-    protected void explicitWaitForElementToBeClickable(WebElement element, int timeInSeconds) {
+    public void explicitWaitForElementToBeClickable(WebElement element, int timeInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, timeInSeconds);
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
@@ -464,7 +464,7 @@ public class Page {
      * @param element the element on which explicit wait needs to be performed.
      * @param timeInSeconds the time in seconds to be waited upon.
      */
-    protected void explicitWaitForElementToBeVisible(WebElement element, int timeInSeconds) {
+    public void explicitWaitForElementToBeVisible(WebElement element, int timeInSeconds) {
         WebDriverWait wait = getWebDriverWait(200);
         wait.until(ExpectedConditions.visibilityOf(element));
         info("Waiting for the WebElement to be visible.");
@@ -485,7 +485,7 @@ public class Page {
      * @param elementToBeSelected is the element to be selected.
      *                            Waits for the element to be selected.
      */
-    protected void explicitWaitForElementToBeSelected(WebElement elementToBeSelected){
+    public void explicitWaitForElementToBeSelected(WebElement elementToBeSelected){
         WebDriverWait wait = getWebDriverWait(200);
         wait.until(ExpectedConditions.elementSelectionStateToBe(elementToBeSelected, true));
         info("Waiting for the WebElement to be Selected.");
@@ -496,7 +496,7 @@ public class Page {
      * @param elementToBeSelected is the element to be selected.
      *                            Waits for the element to be selected.
      */
-    protected void explicitWaitForElementNotToBeSelected(WebElement elementToBeSelected){
+    public void explicitWaitForElementNotToBeSelected(WebElement elementToBeSelected){
         WebDriverWait wait = getWebDriverWait(200);
         wait.until(ExpectedConditions.elementSelectionStateToBe(elementToBeSelected, false));
         info("Waiting for the WebElement to be Not Selected.");
@@ -506,7 +506,7 @@ public class Page {
      *
      * @param pageTitle is the Page Title which is loaded.
      */
-    protected void waitForPageTitleToBeLoaded(String pageTitle){
+    public void waitForPageTitleToBeLoaded(String pageTitle){
         WebDriverWait wait = getWebDriverWait(200);
         wait.until(ExpectedConditions.titleIs(pageTitle));
         info("Waiting for the WebElement to be Not Selected.");
@@ -517,7 +517,7 @@ public class Page {
      * @param expectedPageTitle is the page that needs to be loaded.
      * @return the boolean status of the expected page title and actual page title.
      */
-    protected boolean  isCorrectPageIsLoaded(String expectedPageTitle){
+    public boolean  isCorrectPageIsLoaded(String expectedPageTitle){
         waitForPageTitleToBeLoaded(expectedPageTitle);
         String actualTile = getDriver().getTitle();
         boolean isEqual = actualTile.equals(expectedPageTitle);
@@ -529,7 +529,7 @@ public class Page {
      * @param milliseconds provides waiting mechanism when extra wait is required
      *                 can be used explicitly at desired points. This is Thread.sleep();
      */
-    protected void deadWait(int milliseconds){
+    public void deadWait(int milliseconds){
         try {
             Thread.sleep(milliseconds);
         }
@@ -543,7 +543,7 @@ public class Page {
      * This method wais for the page to be laoded ; waits for the document reference from the DOM
      * waits until the refrenced time inside the method. use this after the Save and Next button click to ensure the next page is successfully loaded .
      */
-    protected void waitForPageLoadToComplete() {
+    public void waitForPageLoadToComplete() {
         Wait<WebDriver> wait = new WebDriverWait(driver, 30);
         wait.until(new Function<WebDriver, Boolean>() {
             public Boolean apply(WebDriver driver) {
@@ -560,7 +560,7 @@ public class Page {
      *
      * @return the object of class JavascriptExecutor. This casts the current driver in hand to a JavascriptExecutor Driver.
      */
-    protected JavascriptExecutor getJsDriver() {
+    public JavascriptExecutor getJsDriver() {
         JavascriptExecutor jsDriver=null;
 
         try {
@@ -580,7 +580,7 @@ public class Page {
     /**
      *  waits for the JQuery to complete.
      */
-    protected void waitForJQueryToComplete() {
+    public void waitForJQueryToComplete() {
         while (true) {
             Boolean ajaxIsComplete = (Boolean) ((JavascriptExecutor)driver).executeScript("return jQuery.active == 0");
             if (ajaxIsComplete){
@@ -608,7 +608,7 @@ public class Page {
      *
      * @param verticalIndex scrolls to page vertically by index.
      */
-    protected void scrollToPageVerticalJS(int verticalIndex){
+    public void scrollToPageVerticalJS(int verticalIndex){
         getJsDriver().executeScript("window.scrollBy(0,"+verticalIndex+")");
     }
 
@@ -616,7 +616,7 @@ public class Page {
      *
      * @return the document title by JavaScript Executor.
      */
-    protected String getDocumentTitleByJS(){
+    public String getDocumentTitleByJS(){
         return getJsDriver().executeScript("return document.title;").toString();
     }
 
@@ -624,11 +624,11 @@ public class Page {
      *
      * @return the inner text of a document by JavaScript Executor.
      */
-    protected String getInnerTextOfWebPageByJS(){
+    public String getInnerTextOfWebPageByJS(){
         return getJsDriver().executeScript("return document.documentElement.innerText; ").toString();
     }
 
-    protected void refreshBrowserWindow(){
+    public void refreshBrowserWindow(){
         getJsDriver().executeScript("history.go(0)");
         info("Browser Window is getting refreshed");
     }
@@ -638,7 +638,7 @@ public class Page {
      * @return the Array for the inner dimension for the current browser that is open.
      * height and width.
      */
-    protected String [] getBrowserInnerDimension(){
+    public String [] getBrowserInnerDimension(){
         String [] dimension = new String[2];
         dimension [0]= getJsDriver().executeScript("return window.innerHeight;").toString();
         info("The inner height of the browser is : "+dimension[0].toString());
@@ -653,7 +653,7 @@ public class Page {
      *
      * @return The Name of the current Window Handle.
      */
-    protected String getCurrentWindowHandle(){
+    public String getCurrentWindowHandle(){
         String handleName = getDriver().getWindowHandle();
         info("The Current Window Handle Name is : "+handleName);
         return handleName;
@@ -663,12 +663,12 @@ public class Page {
      *
      * @return the Set of windows that are present at point in time.
      */
-    protected Set<String> getWindowHandles(){
+    public Set<String> getWindowHandles(){
         Set<String> setOfWindowHandles = getDriver().getWindowHandles();
         return setOfWindowHandles;
     }
 
-    protected void selectWindowHandle(String handleName){
+    public void selectWindowHandle(String handleName){
         WebDriver driver = getDriver();
         try {
             for (String handle : driver.getWindowHandles()) {
@@ -687,7 +687,7 @@ public class Page {
      *
      * @return The current URL of the page.
      */
-    protected String getCurrentURL(){
+    public String getCurrentURL(){
         String currentURL = getDriver().getCurrentUrl().toString();
         info("The Current URL is : "+currentURL);
         return currentURL;
@@ -696,7 +696,7 @@ public class Page {
     /**
      * This method performs the WebDriver Delete All Cookies action.
      */
-    protected void deleteAllCookies(){
+    public void deleteAllCookies(){
         getDriver().manage().deleteAllCookies();
         info("Deleting all the cookies!.");
     }
@@ -706,7 +706,7 @@ public class Page {
      *
      * @param cookie is the name of the Cookie to be deleted.
      */
-    protected void deleteCookiesByCookieName(Cookie cookie){
+    public void deleteCookiesByCookieName(Cookie cookie){
         WebDriver driver = getDriver();
         driver.manage().deleteCookie(cookie);
         if(driver.manage().getCookieNamed(cookie.toString())==null){
@@ -720,7 +720,7 @@ public class Page {
      *
      * @param cookieName is the String name of the cookie
      */
-    protected void deleteCookiesByCookieName(String cookieName){
+    public void deleteCookiesByCookieName(String cookieName){
         WebDriver driver = getDriver();
         driver.manage().deleteCookieNamed(cookieName);
         if(driver.manage().getCookieNamed(cookieName)==null){
@@ -730,35 +730,35 @@ public class Page {
         }
     }
 
-    protected Assertion getHardAssertionObject(){
+    public Assertion getHardAssertionObject(){
         Assertion hardAssert = new Assertion();
         return hardAssert;
     }
 
 
-    protected SoftAssert getSoftAssertionObject(){
+    public SoftAssert getSoftAssertionObject(){
         SoftAssert softAsert = new SoftAssert();
         return softAsert;
 
     }
 
-    protected void hardAssertTrue(boolean b , String failureMesssage){
+    public void hardAssertTrue(boolean b , String failureMesssage){
         getHardAssertionObject().assertTrue(b,failureMesssage);
         info("Hard Assertion Successful : "+b);
     }
 
-    protected void hardAssertTrue(boolean b , String failureMesssage, String succesMessage){
+    public void hardAssertTrue(boolean b , String failureMesssage, String succesMessage){
         getHardAssertionObject().assertTrue(b,failureMesssage);
         info("Hard Assertion Status is : "+b+" message : "+succesMessage);
     }
 
-    protected void softAssert(boolean b, String failureMessage){
+    public void softAssert(boolean b, String failureMessage){
         getSoftAssertionObject().assertTrue(b,failureMessage);
         info("Soft Assertion Successful : "+b);
     }
 
 
-    protected void softAssert(boolean b, String failureMessage, String successMessage){
+    public void softAssert(boolean b, String failureMessage, String successMessage){
         getSoftAssertionObject().assertTrue(b,failureMessage);
         info("Soft Assertion Status is : "+b+" message : "+successMessage);
     }
@@ -766,7 +766,7 @@ public class Page {
     /**
      * accepts the alert present.
      */
-    protected void acceptAlert(){
+    public void acceptAlert(){
         getDriver().switchTo().alert().accept();
         info("Accepting the Alert.");
     }
@@ -774,7 +774,7 @@ public class Page {
     /**
      * Dismisses the Alert
      */
-    protected void dismissAlert(){
+    public void dismissAlert(){
         getDriver().switchTo().alert().dismiss();
         info("Dismissing the Alert.");
     }
@@ -784,7 +784,7 @@ public class Page {
      * @param username is the username for authentication.
      * @param password is the password for authentication.
      */
-    protected void alertAuthenticateWithCredentials(String username, String password){
+    public void alertAuthenticateWithCredentials(String username, String password){
         Credentials credentials = new UserAndPassword(username, password );
         getDriver().switchTo().alert().authenticateUsing(credentials);
         info("Authenticated the Alert using Credentials.");
@@ -795,7 +795,7 @@ public class Page {
      *
      * @return the alert text.
      */
-    protected String alertGetText (){
+    public String alertGetText (){
         String alertText = getDriver().switchTo().alert().getText();
         info("The text extracted from the alert is : "+ alertText);
         return alertText;
@@ -805,7 +805,7 @@ public class Page {
      *
      * @param inputValue is the value to be set in  the alert.
      */
-    protected  void alertSetValue (String inputValue){
+    public  void alertSetValue (String inputValue){
         getDriver().switchTo().alert().sendKeys(inputValue);
         info("The vaue set in the alert is : "+inputValue);
     }

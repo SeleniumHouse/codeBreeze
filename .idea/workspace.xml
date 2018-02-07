@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a123cf-6b39-4e3a-a114-7cf37c669954" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT-javadoc.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT-sources.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0-SNAPSHOT.pom.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/seleniumhouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT-javadoc.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/seleniumhouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT-sources.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/seleniumhouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/seleniumhouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/seleniumhouse/CodeBreeze/1.0-SNAPSHOT/CodeBreeze-1.0-SNAPSHOT.pom.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/seleniumhouse/CodeBreeze/1.0-SNAPSHOT/maven-metadata-nexus.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/seleniumhouse/CodeBreeze/maven-metadata-nexus.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0-javadoc.jar.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0-sources.jar.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0.jar.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0.pom.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0-javadoc.jar.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0-sources.jar.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0.jar.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0.pom.asc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeBreeze.iml" afterPath="$PROJECT_DIR$/CodeBreeze.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CodeHouse/Page.java" afterPath="$PROJECT_DIR$/src/main/java/CodeHouse/Page.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/Page.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/Page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/class-use/Page.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/class-use/Page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-frame.html" />
@@ -33,6 +29,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187.properties" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/.index" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/maven-metadata-nexus.xml" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/maven-metadata-nexus.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.html" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.xml" />
@@ -51,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="120" column="30" lean-forward="true" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+            <state relative-caret-position="60">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -91,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CodeHouse/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="795" column="30" lean-forward="false" selection-start-line="795" selection-start-column="30" selection-end-line="795" selection-end-column="30" />
+            <state relative-caret-position="165">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -142,6 +141,7 @@
       <find>junit</find>
       <find>alertGetText</find>
       <find>selenium</find>
+      <find>protected</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/main/java/CodeHouse/TestInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/CodeHouse/BreezeAlerts.java" />
         <option value="$PROJECT_DIR$/src/main/java/CodeHouseExceptions/CodeHouseExceptions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CodeHouse/Page.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/CodeHouse/Page.java" />
       </list>
     </option>
   </component>
@@ -216,7 +216,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,6 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,10 +294,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,7 +458,6 @@
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -469,7 +468,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31098545" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3101777" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -481,6 +480,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -493,6 +493,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CodeHouse/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CodeHouse/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11535">
+          <caret line="795" column="30" lean-forward="false" selection-start-line="795" selection-start-column="30" selection-end-line="795" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -685,18 +709,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CodeHouse/Page.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="795" column="30" lean-forward="false" selection-start-line="795" selection-start-column="30" selection-end-line="795" selection-end-column="30" />
+        <state relative-caret-position="60">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CodeHouse/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="120" column="30" lean-forward="true" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding />
         </state>
       </provider>
