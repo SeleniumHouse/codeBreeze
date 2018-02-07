@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>CodeHouse</groupId>
+  <groupId>com.github.seleniumhouse</groupId>
   <artifactId>CodeBreeze</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20180207164050</lastUpdated>
+    <lastUpdated>20180207165042</lastUpdated>
   </versioning>
 </metadata>
