@@ -53,7 +53,7 @@ public class Page {
 
     /**
      *
-     * @param message
+     * @param message is the logging message that needes to be added.
      */
     protected void warn(String message){
         logger.warning(message);
@@ -176,9 +176,9 @@ public class Page {
 
     /**
      *
-     * @param selectElement is the dropdown element to be used.
-     *                       Deselects the dropdown elements with provided visibleText.
-     * @param visibleText
+     * @param selectElement is the dropdown element to be used. Deselects the dropdown elements with provided visibleText.
+     *
+     * @param visibleText is the text that needs to be selected.
      */
     protected void deselectByVisibleText(WebElement selectElement, String visibleText){
         try {
@@ -395,8 +395,9 @@ public class Page {
 
     /**
      *
-     * @param element is the element that needs to be rebuilt.
-     * @return the rebuilt fresh element.
+     * @param element the element to be refreshed
+     * @param pollMilliseconds the time in milliseconds to poll before searching.
+     * @return the refreshed webElement.
      */
     protected WebElement cleanAndRebuildElement(final WebElement element, int pollMilliseconds){
         WebElement e2 = null;
@@ -532,7 +533,7 @@ public class Page {
         try {
             Thread.sleep(milliseconds);
         }
-        catch(InterruptedException ie){
+        catch(Exception ie){
             info("Interrupted Exception Occurred !");
             ie.printStackTrace();
         }
@@ -577,8 +578,7 @@ public class Page {
     }
 
     /**
-     * @throws InterruptedException
-     * This method is to wait for the JQuery to complete avoiding stale values to be populated.
+     *  waits for the JQuery to complete.
      */
     protected void waitForJQueryToComplete() {
         while (true) {
@@ -792,7 +792,8 @@ public class Page {
 
 
     /**
-     * Gets the text from the Alert.
+     *
+     * @return the alert text.
      */
     protected String alertGetText (){
         String alertText = getDriver().switchTo().alert().getText();
