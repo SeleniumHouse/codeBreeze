@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a123cf-6b39-4e3a-a114-7cf37c669954" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0-javadoc.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0-sources.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CodeBreeze-1.0.0.pom.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0-javadoc.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0-sources.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0.jar.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/1.0.0/CodeBreeze-1.0.0.pom.asc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CodeHouse/Page.java" afterPath="$PROJECT_DIR$/src/main/java/CodeHouse/Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/Page.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/Page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/class-use/Page.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/class-use/Page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/CodeHouse/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187.properties" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/.index" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/maven-metadata-nexus.xml" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/27f14428f88187/com/github/seleniumhouse/CodeBreeze/maven-metadata-nexus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.html" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/CodeHouse.Test/Command line test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CodeHouse.Test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CodeHouse.Test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,8 +58,8 @@
       <file leaf-file-name="Page.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CodeHouse/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="189">
+              <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -719,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CodeHouse/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="189">
+          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding />
         </state>
       </provider>

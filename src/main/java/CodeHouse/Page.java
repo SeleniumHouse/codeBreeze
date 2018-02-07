@@ -1,6 +1,7 @@
 package CodeHouse;
 
 import com.google.common.base.Function;
+import org.apache.commons.logging.impl.Log4JLogger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.security.Credentials;
@@ -19,8 +20,8 @@ import java.util.logging.Logger;
 public class Page {
 
     public static WebDriver driver;
-    static Logger logger;
-
+    public static Logger logger;
+    public static Log4JLogger log4JLogger;
 
     /**
      *
@@ -30,6 +31,17 @@ public class Page {
     public Page(WebDriver driver,Logger logger){
         this.driver = driver;
         this.logger = logger;
+    }
+
+
+    /**
+     *
+     * @param driver configure the driver
+     * @param logger pass a LOg4j logger
+     */
+    public Page(WebDriver driver,Log4JLogger logger){
+        this.driver = driver;
+        log4JLogger = logger;
     }
 
     /**
