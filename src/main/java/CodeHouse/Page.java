@@ -25,12 +25,12 @@ public class Page {
 
     /**
      *
-     * @param driver configure the WebDriver
-     * @param logger configure the Logger.
+     * @param driver1 configure the WebDriver
+     * @param logger1 configure the Logger.
      */
-    public Page(WebDriver driver,Logger logger){
-        this.driver = driver;
-        this.logger = logger;
+    public Page(WebDriver driver1,Logger logger1){
+       driver = driver1;
+       logger= logger1;
     }
 
 
